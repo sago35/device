@@ -1,1 +1,1 @@
-package nrf
+package nxp
