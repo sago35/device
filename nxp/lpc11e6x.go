@@ -16,7 +16,10 @@ import (
 
 // Some information about this device.
 const (
-	DEVICE = "LPC11E6x"
+	Device       = "LPC11E6x"
+	CPU          = "CM0PLUS"
+	FPUPresent   = false
+	NVICPrioBits = 2
 )
 
 // Interrupt numbers.

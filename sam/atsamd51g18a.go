@@ -16,7 +16,10 @@ import (
 
 // Some information about this device.
 const (
-	DEVICE = "ATSAMD51G18A"
+	Device       = "ATSAMD51G18A"
+	CPU          = "CM4"
+	FPUPresent   = true
+	NVICPrioBits = 3
 )
 
 // Interrupt numbers.

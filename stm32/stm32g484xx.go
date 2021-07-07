@@ -16,7 +16,10 @@ import (
 
 // Some information about this device.
 const (
-	DEVICE = "STM32G484xx"
+	Device       = "STM32G484xx"
+	CPU          = "CM4"
+	FPUPresent   = true
+	NVICPrioBits = 4
 )
 
 // Interrupt numbers.

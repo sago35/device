@@ -16,7 +16,7 @@ import (
 
 // Some information about this device.
 const (
-	DEVICE = "ATSAMA5D35"
+	Device = "ATSAMA5D35"
 )
 
 // Interrupt numbers.

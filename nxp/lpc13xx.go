@@ -16,7 +16,7 @@ import (
 
 // Some information about this device.
 const (
-	DEVICE = "LPC13xx"
+	Device = "LPC13xx"
 )
 
 // Interrupt numbers.

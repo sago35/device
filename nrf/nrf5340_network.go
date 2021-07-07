@@ -16,7 +16,10 @@ import (
 
 // Some information about this device.
 const (
-	DEVICE = "nrf5340_network"
+	Device       = "nrf5340_network"
+	CPU          = "CM33"
+	FPUPresent   = false
+	NVICPrioBits = 3
 )
 
 // Interrupt numbers.

@@ -34,7 +34,10 @@ import (
 
 // Some information about this device.
 const (
-	DEVICE = "MK22F51212"
+	Device       = "MK22F51212"
+	CPU          = "CM4"
+	FPUPresent   = true
+	NVICPrioBits = 4
 )
 
 // Interrupt numbers.

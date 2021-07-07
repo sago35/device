@@ -15,7 +15,10 @@ import (
 
 // Some information about this device.
 const (
-	DEVICE = "esp32"
+	Device       = "esp32"
+	CPU          = "Xtensa LX6"
+	FPUPresent   = true
+	NVICPrioBits = 3
 )
 
 // Interrupt numbers.

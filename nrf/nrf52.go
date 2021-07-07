@@ -42,7 +42,10 @@ import (
 
 // Some information about this device.
 const (
-	DEVICE = "nrf52"
+	Device       = "nrf52"
+	CPU          = "CM4"
+	FPUPresent   = true
+	NVICPrioBits = 3
 )
 
 // Interrupt numbers.

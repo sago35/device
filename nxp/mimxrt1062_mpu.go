@@ -7,10 +7,9 @@
 package nxp
 
 import (
+	"github.com/sago35/device/arm"
 	"runtime/volatile"
 	"unsafe"
-
-	"github.com/sago35/device/arm"
 )
 
 type MPU_Type struct {
