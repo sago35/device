@@ -1,3 +1,5 @@
+// +build arm
+
 package arm
 
 // Semihosting commands.
